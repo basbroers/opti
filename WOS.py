@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 
-image = Image.open('https://github.com/basbroers/opti/blob/main/Taghleef.png')
+image = Image.open('Taghleef.png')
 GS = ['TSS20','TZZ20']
 
 with st.sidebar:
